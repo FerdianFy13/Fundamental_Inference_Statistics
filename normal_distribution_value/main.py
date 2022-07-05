@@ -7,3 +7,9 @@
 # difference for cdf and pdf
 # pdf (probability density function) adalah sebuah fungsi yang diseadikan oleh scipy yang digunakan untuk mencari nilai z-score, if diketahui nilai probabilitynya
 # cdf (cumulative density funcation) adalah sebuah fungsi yang disediakan oleh scipy yang digunakan untuk mencari nilai probability, if diketahui nilai z-scorenya
+
+# transform z-score to an z-value
+# z = (x - u) / 6
+# z6 = x - u
+# u + z6 = x
+# x = u + z6
