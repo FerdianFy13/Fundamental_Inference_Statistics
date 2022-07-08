@@ -7,3 +7,10 @@
 # every sample statics has a sampling distribution
 
 # summary, sample distribution akan melakukan kalkulasi dari mean dari tiap sampling untuk mendaptakn mean dari sampling distribution dari sample n yang different
+
+# property of sampling distribution of sample means
+# the man of the sample means meanz is equal to the populations mean u
+# uz = u
+# the standard deviation of the sample mean sigma x is equal to the populations standard deviation sigma divided by the square root of the sample size n
+# sigma x = sigma / akar n
+# the standard deviation of the sampling distribution of the sample means is called the standard error of the mean
