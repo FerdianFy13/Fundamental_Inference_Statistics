@@ -5,14 +5,14 @@ from scipy import stats
 import numpy as np
 import matplotlib.pyplot as plt
 
-z_score = 1.15
+z_score = 1.25
 p = stats.norm.cdf(z_score)
 print(p)
 
 def draw_z_score(x, cond, mu=0, sigma=1):
     y = stats.norm.pdf(x, mu, sigma)
     z = x[cond]
-    plt.plot(x, y, "r")
+    plt.plot(x, y, "r-o")
     plt.fill_between(z, 0, stats.norm.pdf(z, mu, sigma))
     plt.show()
 
