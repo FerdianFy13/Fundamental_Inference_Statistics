@@ -14,3 +14,8 @@
 # the standard deviation of the sample mean sigma x is equal to the populations standard deviation sigma divided by the square root of the sample size n
 # sigma x = sigma / akar n
 # the standard deviation of the sampling distribution of the sample means is called the standard error of the mean
+
+# probability and the central limit theorem
+# we can find the probability that a sample mean x will lie in a given internal of the x sampling distribution
+# to transform x to a z-score, you can use the formula
+# z = x - ux/6x = x - u / 6 / akar n
