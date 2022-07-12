@@ -19,7 +19,7 @@
 # determine whether you can use a normal distribution to approximate x, the binomial variable
 # . is np >= 5 and nq >= 5
 # find the mean u and standard deviation sigma for the distribution
-# . u = np
+# . u = npgit 
 # apply the appropriate continuity correction. shade the corresponding area under the normal curve
 # . add 0.5 to (or substract 0.5 from) the binomual probabilities
 # find the correspoding z-score
