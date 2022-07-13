@@ -37,3 +37,12 @@
 # when x is estimated the sampling error is the difference x - u
 # in most cases of course u is unknown and x varies from sample to sample
 # homever you can calculate a maximum value for the erro when you know the level confidence and the sampling distribution
+
+# * margin of error
+# given a level of confidence c the margin of error E(sometimes also called the maximum error of estimate or error tolerance) is the greatest possible distance between the point estimate and the value of the parameter it is estimating
+# for a population mean u where sigma is known, the margin of error is
+# . E = zc.sigmax = zc sigma/akar n (zc is critical values)
+# when the conditions are met:
+# . the sample is random
+# . at least one the following is true: the populations is normally distributed or n >= 30
+# 
