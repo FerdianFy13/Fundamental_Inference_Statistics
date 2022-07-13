@@ -11,3 +11,14 @@
 # the most unbiased point estimate of the population mean u is the sample mean x bar
 # the validity of an estimation method is increased when you use a sample statistics that is unbiased and has low variability
 # a sample statistics is unbiased if it does not overestimate or underestimate the populations parameter
+
+#* finding a point estimate
+# x = ex / n
+# this is called making an interval estimate
+
+# * interval estimate
+# an interval estimate is an intervalm or range of values used to estimate a population parameter
+# to form an interval estimate use the point estimate as the center of the interval and then add and substract a margin of error
+# for instance, if the margin of error is 2.1 then an interval estimate would be given by
+# x += 2.1 or 
+# x - 2.1 < u < x + 2.1
