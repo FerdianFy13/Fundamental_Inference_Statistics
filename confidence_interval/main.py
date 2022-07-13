@@ -21,4 +21,13 @@
 # to form an interval estimate use the point estimate as the center of the interval and then add and substract a margin of error
 # for instance, if the margin of error is 2.1 then an interval estimate would be given by
 # x += 2.1 or 
-# x - 2.1 < u < x + 2.1
+# x - 2.1 (lef endpoint) < u(point estimate) < x + 2.1 (right endpoint)
+# the point estimate and inteval estimate are shown in the figure
+# beforing finding a margin of error for an interval estimate, we should first determine how confident we need to be that yout interval estimate contains the population mean x
+
+# * level of confidence
+# the level of confidence c is the proabability that the interval estimate contains the populations parameter, assuming that the estimation process is repeated a large number of times
+# we know from the central limit theorem that when n >= 30, the sampling distribution of sample means is a normal distribution
+# the level of confidence c is the area under the standard normal curve between the critical values, -zc and zc
+# critical values are values that seperate sample statistics that are probable from sample statistics that are improbable or unusual
+# we can see form the figure shown below that c is the percent of the area under the normal curve between -zc and zc
