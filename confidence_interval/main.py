@@ -31,3 +31,9 @@
 # the level of confidence c is the area under the standard normal curve between the critical values, -zc and zc
 # critical values are values that seperate sample statistics that are probable from sample statistics that are improbable or unusual
 # we can see form the figure shown below that c is the percent of the area under the normal curve between -zc and zc
+
+# * sampling error
+# the difference between the point estimate and the actual parameter value is called the sampling error
+# when x is estimated the sampling error is the difference x - u
+# in most cases of course u is unknown and x varies from sample to sample
+# homever you can calculate a maximum value for the erro when you know the level confidence and the sampling distribution
