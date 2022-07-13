@@ -45,4 +45,19 @@
 # when the conditions are met:
 # . the sample is random
 # . at least one the following is true: the populations is normally distributed or n >= 30
-# 
+
+
+# * confidence intervales for a populations mean
+# using a pointt estimate and a margin of error, you can construct an interval estimate of a population parameter such as u
+# this interval estimate is called a confidence interval
+# a confidence interval for a population mean u is
+# . x - e < u < x + e
+# the probability that the confidence interval contains u is c, assuming that the estimation process is repeated a large number of times
+
+# guidelines for costructiong a confidence interval for a population mean, if sigma known
+# verify that sigma is known, the sample is random and either the populations is normally distributed or n >= 30
+# find the sample statistics x
+# . x bar = total x / n
+# find the critical value zc that corresponds to the given level of confidence
+# find the margin of error e
+# . e = zc sigma / sqrt n
