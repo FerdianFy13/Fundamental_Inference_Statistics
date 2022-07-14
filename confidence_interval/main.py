@@ -61,3 +61,7 @@
 # find the critical value zc that corresponds to the given level of confidence
 # find the margin of error e
 # . e = zc sigma / sqrt n
+# find the left and right endpoints and form the confidence interval
+# . left endpoint: x bar - E
+# . right endpoint: x bar + E
+# . interval: x bar - E < u < x bar + E
