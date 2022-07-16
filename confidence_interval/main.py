@@ -65,3 +65,12 @@
 # . left endpoint: x bar - E
 # . right endpoint: x bar + E
 # . interval: x bar - E < u < x bar + E
+
+# * sample size
+# for the sam esample statistics, as the level confidence increases, the confidence interval widens
+# as the confidence interval widens, the precision of the estimate decreases
+# one way to improve the precision of an estimate without decreasing the level of confidence is to increase the sample size
+# but how large a sample size is needed to guarantee a certain level of confidence for a given margin of error
+# by using the formula for the margin of error to find the minimum sample size n
+# given a confidence level and a margin of error E, the minimum sample size n needed to estimate the populations u is
+# when sigma is unknown, we can estimate it using s, provided you have a preliminary sample with at least 30 members
