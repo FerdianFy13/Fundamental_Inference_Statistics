@@ -4,3 +4,14 @@
 # in many real life situations, the populations standard deviation sigma is unknown
 # so, how can you construct a confidence interval for a population mean when sigma is nott known
 # for a random variable that is normally distributed (or approximately normally distributed), you can use a t-distribution
+
+# if the distribution of a random variable x is approxiametly normal, then
+# . t = x bar - u / s / sqrt n
+# critical values of t are denoted by tc. here are several properties of the t-distribution
+# 1. the mean, median, and mode of the t-distribution are equal to 0
+# 2. th t-distribution is bell-shaped and symetric about the mean
+# 3. the total area under the t-distribution curve is equal to 1
+# 4. the tails in the t-distribution are "thicker" than those in the standard normal distribution
+# 5. the standatd deviation of the t-distribution varies with the sample size, but it is greater than 1
+# 6. tht t-distribution is a family of curves, each determineed by a parameter called the degress of freedom. the degress of freedom (sometimes abbreviated as d.f) are the number of free choices left after a sample statistics such as x bar is calculated. when you use t-distribution to estimate a population mean, the degrees of freedom are equal to one less than the sample size d.f. = n - 1
+# 7. as the degrees of freedom increase, the t-distribution approaches the standard normal distribution, as shown in the figure, after 30 d.f., the t-distributbion is close to the standard  normal distribution
