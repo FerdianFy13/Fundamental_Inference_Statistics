@@ -15,3 +15,9 @@
 # 5. the standatd deviation of the t-distribution varies with the sample size, but it is greater than 1
 # 6. tht t-distribution is a family of curves, each determineed by a parameter called the degress of freedom. the degress of freedom (sometimes abbreviated as d.f) are the number of free choices left after a sample statistics such as x bar is calculated. when you use t-distribution to estimate a population mean, the degrees of freedom are equal to one less than the sample size d.f. = n - 1
 # 7. as the degrees of freedom increase, the t-distribution approaches the standard normal distribution, as shown in the figure, after 30 d.f., the t-distributbion is close to the standard  normal distribution
+
+# * confidence intervals and t-distributions
+# constructiong a confidence interval for u when sigma is not knwon using the t-distribution is similar to constructing a confidence interval for u when sigam is known using the standard normal distribution --both use a point estimate x bar and a margin of error E
+# when sigam is not known, the margin of error E is calculated using the sample standard deviation s and the critical value tc
+# the formula for E is: E = tc.s/sqrt n
+# before using this formula, verify that the sample is ranodm and either the population is normally distributed or n >= 30
