@@ -21,3 +21,14 @@
 # when sigam is not known, the margin of error E is calculated using the sample standard deviation s and the critical value tc
 # the formula for E is: E = tc.s/sqrt n
 # before using this formula, verify that the sample is ranodm and either the population is normally distributed or n >= 30
+
+# * Guidelines for constructinf a confidence interval for a sigma unknown
+# verify that sigma is not known, the sample is random and either the population is normally distributed or n >= 30
+# find the sample statistics n, x bar, and s
+# . x bar = Equals z / n
+# . s = sqrt Equals(x-z)2/n-1
+# identify the degrees of freedom the level of confidence c and the critical value tc
+# . df = n - 1
+# find the margin of error E
+# . E = tc.s/sqrt n
+# find the left and right endpoint and form the confidence interval
