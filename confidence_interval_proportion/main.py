@@ -32,3 +32,10 @@
 # . we can use SciPy
 # find the margin of error E
 # find the left and right endpoints and form the confidence interval
+
+# * finding a minimum sample size
+# one way to increase the precision of a confidence interval without decreasing the level of confidence is to increase the sample size
+# given a c-confidence level and margin of error E, the minimum sample size n needed to estimate the population proporion p is:
+# . n = p^q^(zc/E)2
+# this formula assumes that we have preliminary estimated of p^ and q^
+# if not use p^ = 0.5 and q^ = 0.5
