@@ -21,3 +21,14 @@
 # where margin of error for p is:
 # . E = zc sqrt p^q^/n
 # the probability that the confidence interval contains p is c, assuming that the estimation process is repeated a large number of times.
+
+# * guidelines for constructing a confidence interval for a populations proportion
+# identify the sample statistics n and x bar
+# find the point estimate p^
+# . p^ = x / n
+# verify that the sampling distribution p^ can be approximated by a normal distribution
+# . np^ >= 5, nq^ >= 5
+# find the critical value zc that corresponds to the given level of confidence c
+# . we can use SciPy
+# find the margin of error E
+# find the left and right endpoints and form the confidence interval
