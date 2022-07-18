@@ -32,3 +32,7 @@
 # find the margin of error E
 # . E = tc.s/sqrt n
 # find the left and right endpoint and form the confidence interval
+
+# * construct a confidence interval for a population mean
+# the flowchart describes when to use the standard normal distribution and when to use the t-distribution to construct a confidence interval for a population mean
+# notice in the flowchart that when both n < 30 and the population is not normally distributed, you cannot use the standard normal distribution or the t-distribution
