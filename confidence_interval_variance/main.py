@@ -46,3 +46,11 @@ print(f'xl2_critical: {xl2_critical}')
 # because the chi-square distribution is not symmetric the confidence interval for sigma2 cnanot be written as s2 +- E
 # we must do separate calculations for the endpoints of the confidence interval
 # the probability that the confience intervals caontain sigma2 or sigma is c assuming that the estimation process is repeated a large number of times
+
+# * guidelines for constructing a confidence intervals for a variance and standard deviation
+# verify that the population has a normal distribution
+# identify the sample statistics n and the degrees of freedom
+# find the point estimate s2
+# find the critical value xr2 and xl2 that correspond to the given level of confidence c and the degrees of freedom
+# find the left and right endpoints and form the confidence interval for the populations variance
+# find the confidence interval for the populations standard deviation by taking the square root of each endpoint
