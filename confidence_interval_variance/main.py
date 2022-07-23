@@ -39,3 +39,10 @@ xr2_critical = chi2.ppf(1-xr2, df)
 xl2_critical = chi2.ppf(1-xl2, df)
 print(f'xr2_critical: {xr2_critical}')
 print(f'xl2_critical: {xl2_critical}')
+
+# * confidence intervals for sigma2 and sigma
+# we can use the critical values xr2 dan xl2 to construct confidence intervals for a populations variance and standard deviation
+# the best point estimate for the variance is s2 and the best point estimate for the standard deviation is s
+# because the chi-square distribution is not symmetric the confidence interval for sigma2 cnanot be written as s2 +- E
+# we must do separate calculations for the endpoints of the confidence interval
+# the probability that the confience intervals caontain sigma2 or sigma is c assuming that the estimation process is repeated a large number of times
