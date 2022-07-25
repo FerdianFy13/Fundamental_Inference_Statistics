@@ -12,4 +12,5 @@
 # if the statement in the null hypothesis is not true, then the alternative hypothesis must be true
 
 # * stating a hypothesis definition
-# a null hypothesis Ha is the complement of the null hypothesis. it is a statement that must be true if H0 is false and it contains a statement of strict inequality such as >, != or <
+# a null hypothesis H0 is a statistical hypothesis that contains a statement of equality such as <= , = , or >=
+# the alternative hypothesis Ha is the complement of the null hypothesis. it is a statement that must be true if H0 is false and it contains a statement of strict inequality suach as >, !=, or <
