@@ -14,3 +14,9 @@
 # * stating a hypothesis definition
 # a null hypothesis H0 is a statistical hypothesis that contains a statement of equality such as <= , = , or >=
 # the alternative hypothesis Ha is the complement of the null hypothesis. it is a statement that must be true if H0 is false and it contains a statement of strict inequality suach as >, !=, or <
+
+# * stating a hypothesis
+# to write the null and the alternative hypotbeses translate the claim made about the population paramter from a verbal statement to a mathematical statement, then write its complement
+# for instance if the claim values is k and the populations paramter is u, then some possible pairs of null and alternative hypothesis are:
+# . {h0 : u <= k Ha : u > k} 
+# . {h0 : u >= k Ha : u < k} 
