@@ -10,3 +10,6 @@
 # when one of these hypotheses is false, the other must be true. either hypothesis the null hypothesis or the alternative hypothesis may represents the original claim
 # the term null hypothesis was introduced by ronald fisher
 # if the statement in the null hypothesis is not true, then the alternative hypothesis must be true
+
+# * stating a hypothesis definition
+# a null hypothesis Ha is the complement of the null hypothesis. it is a statement that must be true if H0 is false and it contains a statement of strict inequality such as >, != or <
