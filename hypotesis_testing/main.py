@@ -23,4 +23,6 @@
 # . {h0 : u == k Ha : u != k} 
 # regardles of which of the three pairs of hypotheses we use we always assume u = k and examine the sampling distribution on the basis of this assumption
 # within this sampling distribution we will determinine whether or not a sample statistics is unusual 
+# the table shows the relationship between possible verbal statements about the parameter u and the corresponding null and alternative hypothesis
+# similar statements can be made to test other population parameters such as p, sigma, or sigma kuadrat
 
