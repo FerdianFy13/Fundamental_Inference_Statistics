@@ -20,3 +20,7 @@
 # for instance if the claim values is k and the populations paramter is u, then some possible pairs of null and alternative hypothesis are:
 # . {h0 : u <= k Ha : u > k} 
 # . {h0 : u >= k Ha : u < k} 
+# . {h0 : u == k Ha : u != k} 
+# regardles of which of the three pairs of hypotheses we use we always assume u = k and examine the sampling distribution on the basis of this assumption
+# within this sampling distribution we will determinine whether or not a sample statistics is unusual 
+
